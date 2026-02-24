@@ -64,7 +64,7 @@ System on Arduino Due with keypad, LCD, servo, and relay integration.
 
 ## 📊 GitHub Stats
 
-![Ege's GitHub Stats](https://github-readme-stats.vercel.app/api?username=egeyesss&show_icons=true&theme=dark&hide_border=true)
+![GitHub Stats](https://streak-stats.demolab.com?user=egeyesss&theme=dark&hide_border=true)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=egeyesss&layout=compact&theme=dark&hide_border=true)
 
 ---
