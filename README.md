@@ -1,6 +1,6 @@
 # Hey, I'm Ege 👋
 
-4th-year Software Engineering student at York University. I've built and shipped 
+4th-year Software Engineering student at York University. I've built and deployed 
 full-stack web apps end to end. I have experience with Django backends, Next.js frontends, MySQL databases, 
 and running the whole thing in Docker on Kubernetes.
 
@@ -39,7 +39,7 @@ my Java skills.
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 ### 🔨 [Online Auction Platform](https://github.com/egeyesss/eecs4413_auction)
 Full-stack e-commerce web app with Dutch and Forward auction mechanics, real-time 
@@ -48,21 +48,15 @@ autocomplete. Deployed on a 3-node Kubernetes cluster with multi-region failover
 CI/CD pipeline, and automated MySQL backups.
 `Next.js` `TypeScript` `Django REST Framework` `MySQL` `Docker` `Kubernetes`
 
-### 🏋️ [Fitiva — Workout Training Planner](https://github.com/egeyesss/group2-fitiva) *(In Progress)*
+### 🏋️ [Fitiva — Workout Training Planner](https://github.com/egeyesss/group2-fitiva)
 Leading a 6-person team building a personalized workout planning platform for fitness 
 enthusiasts and trainers. Features authentication, fitness profiles, workout scheduling, 
 an exercise library, and smart recommendations. 40+ unit tests and counting.
 `Next.js` `TypeScript` `Django REST Framework` `MySQL` `Docker` `Jira`
 
-### ⚙️ Arduino Embedded Systems
-Built two hardware projects: an Automatic Watering System on Arduino Uno with 95% 
-moisture monitoring accuracy and real-time OLED feedback, and a PIN-Based Door Lock 
-System on Arduino Due with keypad, LCD, servo, and relay integration.
-`Arduino` `Java` `Firmata` `I2C`
-
 ---
 
-## 📬 Let's Connect
+## Let's Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/egeyesss/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:egeyesilyurtca@gmail.com)
