@@ -54,6 +54,21 @@ enthusiasts and trainers. Features authentication, fitness profiles, workout sch
 an exercise library, and smart recommendations. 40+ unit tests and counting.
 `Next.js` `TypeScript` `Django REST Framework` `MySQL` `Docker` `Jira`
 
+### 🧩 [Zebra Puzzle Generator](https://github.com/egeyesss/csp-generator)
+Open-source engine that generates zebra-style logic-grid puzzles with provably 
+unique solutions. Pairs an OR-Tools CP-SAT solver (the uniqueness oracle) with a 
+custom propagation tracer that mirrors human deduction to grade difficulty — 
+deduction depth, case-analysis depth, and a composite 0–10 score. Multi-theme, 
+with a manual-review CLI for curation.
+`Python` `OR-Tools` `Pydantic` `Click` `pytest` `Hypothesis`
+
+### 🏙️ [Spocity — Spotify Listening as a 3D City](https://github.com/egeyesss/spocity)
+Turns your Spotify listening history into a living 3D voxel city — every artist 
+becomes a building, heavy plays grow towers, neglected artists decay, and genre 
+districts auto-zone the skyline. Exponential-decay scoring with nightly Celery 
+recomputes keeps the city alive. Live at [spocity.app](https://spocity.app).
+`Next.js` `TypeScript` `React Three Fiber` `Django REST` `Celery` `Postgres`
+
 ---
 
 ## Let's Connect
