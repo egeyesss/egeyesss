@@ -66,7 +66,7 @@ with a manual-review CLI for curation.
 Turns your Spotify listening history into a living 3D voxel city — every artist 
 becomes a building, heavy plays grow towers, neglected artists decay, and genre 
 districts auto-zone the skyline. Exponential-decay scoring with nightly Celery 
-recomputes keeps the city alive. Live at [spocity.app](https://spocity.app).
+recomputes keeps the city alive. Live soon.
 `Next.js` `TypeScript` `React Three Fiber` `Django REST` `Celery` `Postgres`
 
 ---
