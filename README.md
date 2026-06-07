@@ -1,16 +1,3 @@
-# Hey, I'm Ege 👋
-
-4th-year Software Engineering student at York University. I've built and deployed 
-full-stack web apps end to end. I have experience with Django backends, Next.js frontends, MySQL databases, 
-and running the whole thing in Docker on Kubernetes.
-
-I genuinely enjoy tackling problems that make me think hard, whether that's designing 
-a system from scratch or debugging something that shouldn't be broken but is.
-Right now I'm deepening my knowledge in Python for machine learning and sharpening 
-my Java skills.
-
----
-
 ## 🛠️ Tech Stack
 
 **Languages**
