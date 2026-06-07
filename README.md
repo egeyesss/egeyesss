@@ -28,6 +28,23 @@
 
 ## Featured Projects
 
+### 🦓 [Zebra — Daily Logic-Grid Puzzle](https://github.com/egeyesss/zebra)
+A daily competitive puzzle web app built around the classic Einstein riddle. One fresh
+4×4 grid every day (plus a 5×5 bonus on Fridays), the same puzzle for every player.
+Commit-based input with a hard countdown timer and zero auto-help — every cell you
+change counts against your score. Features an eliminate mode for crossing off candidate
+values, a once-per-puzzle "check my work" button, and a stat-forward result card.
+Dark engineer-noir aesthetic, monospace throughout.
+`Next.js` `TypeScript` `Tailwind CSS`
+
+### 🧩 [Zebra Puzzle Generator](https://github.com/egeyesss/csp-generator)
+Open-source engine that generates zebra-style logic-grid puzzles with provably 
+unique solutions. Pairs an OR-Tools CP-SAT solver (the uniqueness oracle) with a 
+custom propagation tracer that mirrors human deduction to grade difficulty — 
+deduction depth, case-analysis depth, and a composite 0–10 score. Multi-theme, 
+with a manual-review CLI for curation.
+`Python` `OR-Tools` `Pydantic` `Click` `pytest` `Hypothesis`
+
 ### 🔨 [Online Auction Platform](https://github.com/egeyesss/eecs4413_auction)
 Full-stack e-commerce web app with Dutch and Forward auction mechanics, real-time 
 bidding, automated buyer-seller email notifications, and Google Maps API address 
@@ -40,14 +57,6 @@ Leading a 6-person team building a personalized workout planning platform for fi
 enthusiasts and trainers. Features authentication, fitness profiles, workout scheduling, 
 an exercise library, and smart recommendations. 40+ unit tests and counting.
 `Next.js` `TypeScript` `Django REST Framework` `MySQL` `Docker` `Jira`
-
-### 🧩 [Zebra Puzzle Generator](https://github.com/egeyesss/csp-generator)
-Open-source engine that generates zebra-style logic-grid puzzles with provably 
-unique solutions. Pairs an OR-Tools CP-SAT solver (the uniqueness oracle) with a 
-custom propagation tracer that mirrors human deduction to grade difficulty — 
-deduction depth, case-analysis depth, and a composite 0–10 score. Multi-theme, 
-with a manual-review CLI for curation.
-`Python` `OR-Tools` `Pydantic` `Click` `pytest` `Hypothesis`
 
 ### 🏙️ [Spocity — Spotify Listening as a 3D City](https://github.com/egeyesss/spocity)
 Turns your Spotify listening history into a living 3D voxel city — every artist 
