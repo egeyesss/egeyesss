@@ -1,3 +1,11 @@
+# Ege Yesilyurt
+
+**Software Engineering @ York University · Full-stack (Django · Next.js · Kubernetes) · graduating May 2027**
+
+I build web apps end to end — a CP-SAT puzzle engine, a Spotify-listening 3D voxel city, and a calibrated football-forecasting model with a bounded, auditable LLM layer.
+
+---
+
 ## 🛠️ Tech Stack
 
 **Languages**
@@ -35,6 +43,7 @@ Commit-based input with a hard countdown timer and zero auto-help. Every cell yo
 change counts against your score. Features an eliminate mode for crossing off candidate
 values, a once-per-puzzle "check my work" button, and a stat-forward result card.
 Dark engineer-noir aesthetic, monospace throughout.
+Play today's puzzle at [zebra-nine.vercel.app](https://zebra-nine.vercel.app).
 `Next.js` `TypeScript` `Tailwind CSS`
 
 ### 🧩 [Zebra Puzzle Generator](https://github.com/egeyesss/csp-generator)
@@ -49,7 +58,8 @@ with a manual-review CLI for curation.
 Turns your Spotify listening history into a living 3D voxel city where every artist
 becomes a building, heavy plays grow towers, neglected artists decay, and genre
 districts auto-zone the skyline. Exponential-decay scoring with nightly Celery
-recomputes keeps the city alive. Live soon.
+recomputes keeps the city alive.
+Live at [spocity-smoky.vercel.app](https://spocity-smoky.vercel.app) — or [walk the demo city](https://spocity-smoky.vercel.app/demo), no login needed.
 `Next.js` `TypeScript` `React Three Fiber` `Django REST` `Celery` `Postgres`
 
 ### ⚽ [BundesPredict: Bundesliga Match Predictor](https://github.com/egeyesss/BundesPredict)
@@ -60,7 +70,8 @@ striker is out and it's storming" — into small, bounded, server-clamped expect
 adjustments, re-runs the model, and explains what moved and why. One score matrix drives
 every market, so 1X2, over/under, both-teams-to-score, and correct scores can never
 disagree. Backtested walk-forward over five seasons (~1,800 out-of-sample predictions,
-ECE ≈ 0.01). Live at [bundespredict.vercel.app](https://bundespredict.vercel.app).
+ECE ≈ 0.01).
+Live at [bundespredict.vercel.app](https://bundespredict.vercel.app).
 `Next.js` `TypeScript` `FastAPI` `Python` `Anthropic API` `Postgres`
 
 ### 🏋️ [Fitiva: Workout Training Planner](https://github.com/egeyesss/group2-fitiva)
