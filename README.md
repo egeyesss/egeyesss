@@ -43,7 +43,7 @@ Commit-based input with a hard countdown timer and zero auto-help. Every cell yo
 change counts against your score. Features an eliminate mode for crossing off candidate
 values, a once-per-puzzle "check my work" button, and a stat-forward result card.
 Dark engineer-noir aesthetic, monospace throughout.
-Play today's puzzle at [https://zebra9.xyz/](https://zebra9.xyz/).
+Play today's puzzle at [zebra9.xyz](https://zebra9.xyz/).
 `Next.js` `TypeScript` `Tailwind CSS`
 
 ### 🧩 [Zebra Puzzle Generator](https://github.com/egeyesss/csp-generator)
