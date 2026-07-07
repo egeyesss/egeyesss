@@ -2,7 +2,7 @@
 
 **Software Engineering @ York University · Full-stack (Django · Next.js · Kubernetes) · graduating May 2027**
 
-I build web apps end to end — a CP-SAT puzzle engine, a Spotify-listening 3D voxel city, and a calibrated football-forecasting model with a bounded, auditable LLM layer.
+I build web apps end to end; a CP-SAT puzzle engine, a Spotify-listening 3D voxel city, and a calibrated football-forecasting model with a bounded, auditable LLM layer.
 
 ---
 
@@ -43,7 +43,7 @@ Commit-based input with a hard countdown timer and zero auto-help. Every cell yo
 change counts against your score. Features an eliminate mode for crossing off candidate
 values, a once-per-puzzle "check my work" button, and a stat-forward result card.
 Dark engineer-noir aesthetic, monospace throughout.
-Play today's puzzle at [zebra-nine.vercel.app](https://zebra-nine.vercel.app).
+Play today's puzzle at [https://zebra9.xyz/](https://zebra9.xyz/).
 `Next.js` `TypeScript` `Tailwind CSS`
 
 ### 🧩 [Zebra Puzzle Generator](https://github.com/egeyesss/csp-generator)
