@@ -45,12 +45,23 @@ deduction depth, case-analysis depth, and a composite 0-10 score. Multi-theme,
 with a manual-review CLI for curation.
 `Python` `OR-Tools` `Pydantic` `Click` `pytest` `Hypothesis`
 
-### 🔨 [Online Auction Platform](https://github.com/egeyesss/eecs4413_auction)
-Full-stack e-commerce web app with Dutch and Forward auction mechanics, real-time
-bidding, automated buyer-seller email notifications, and Google Maps API address
-autocomplete. Deployed on a 3-node Kubernetes cluster with multi-region failover,
-CI/CD pipeline, and automated MySQL backups.
-`Next.js` `TypeScript` `Django REST Framework` `MySQL` `Docker` `Kubernetes`
+### 🏙️ [Spocity: Spotify Listening as a 3D City](https://github.com/egeyesss/spocity)
+Turns your Spotify listening history into a living 3D voxel city where every artist
+becomes a building, heavy plays grow towers, neglected artists decay, and genre
+districts auto-zone the skyline. Exponential-decay scoring with nightly Celery
+recomputes keeps the city alive. Live soon.
+`Next.js` `TypeScript` `React Three Fiber` `Django REST` `Celery` `Postgres`
+
+### ⚽ [BundesPredict: Bundesliga Match Predictor](https://github.com/egeyesss/BundesPredict)
+A Bundesliga outcome predictor with two deliberately separate layers: a hand-written
+Dixon–Coles / Poisson model (weighted MLE, time decay, temperature-scaled calibration)
+produces the probabilities, and an LLM agent turns plain-English match context — "their
+striker is out and it's storming" — into small, bounded, server-clamped expected-goals
+adjustments, re-runs the model, and explains what moved and why. One score matrix drives
+every market, so 1X2, over/under, both-teams-to-score, and correct scores can never
+disagree. Backtested walk-forward over five seasons (~1,800 out-of-sample predictions,
+ECE ≈ 0.01). Live at [bundespredict.vercel.app](https://bundespredict.vercel.app).
+`Next.js` `TypeScript` `FastAPI` `Python` `Anthropic API` `Postgres`
 
 ### 🏋️ [Fitiva: Workout Training Planner](https://github.com/egeyesss/group2-fitiva)
 Leading a 6-person team building a personalized workout planning platform for fitness
@@ -58,12 +69,12 @@ enthusiasts and trainers. Features authentication, fitness profiles, workout sch
 an exercise library, and smart recommendations. 40+ unit tests and counting.
 `Next.js` `TypeScript` `Django REST Framework` `MySQL` `Docker` `Jira`
 
-### 🏙️ [Spocity: Spotify Listening as a 3D City](https://github.com/egeyesss/spocity)
-Turns your Spotify listening history into a living 3D voxel city where every artist
-becomes a building, heavy plays grow towers, neglected artists decay, and genre
-districts auto-zone the skyline. Exponential-decay scoring with nightly Celery
-recomputes keeps the city alive. Live soon.
-`Next.js` `TypeScript` `React Three Fiber` `Django REST` `Celery` `Postgres`
+### 🔨 [Online Auction Platform](https://github.com/egeyesss/eecs4413_auction)
+Full-stack e-commerce web app with Dutch and Forward auction mechanics, real-time
+bidding, automated buyer-seller email notifications, and Google Maps API address
+autocomplete. Deployed on a 3-node Kubernetes cluster with multi-region failover,
+CI/CD pipeline, and automated MySQL backups.
+`Next.js` `TypeScript` `Django REST Framework` `MySQL` `Docker` `Kubernetes`
 
 ---
 
