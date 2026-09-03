@@ -2,7 +2,7 @@
 
 **Software Engineering @ York University · Full-stack (Django · Next.js · Kubernetes) · graduating May 2027**
 
-I build web apps end to end; a CP-SAT puzzle engine, a Spotify-listening 3D voxel city, and a calibrated football-forecasting model with a bounded, auditable LLM layer.
+I build web apps end to end and systems tooling in Rust; a CP-SAT puzzle engine, an agent-aware terminal for macOS with real outside users, and a calibrated football-forecasting model with a bounded, auditable LLM layer.
 
 ---
 
@@ -12,6 +12,7 @@ I build web apps end to end; a CP-SAT puzzle engine, a Spotify-listening 3D voxe
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
@@ -54,13 +55,15 @@ deduction depth, case-analysis depth, and a composite 0-10 score. Multi-theme,
 with a manual-review CLI for curation.
 `Python` `OR-Tools` `Pydantic` `Click` `pytest` `Hypothesis`
 
-### 🏙️ [Spocity: Spotify Listening as a 3D City](https://github.com/egeyesss/spocity)
-Turns your Spotify listening history into a living 3D voxel city where every artist
-becomes a building, heavy plays grow towers, neglected artists decay, and genre
-districts auto-zone the skyline. Exponential-decay scoring with nightly Celery
-recomputes keeps the city alive.
-Live at [spocity.egeyesilyurt.ca](https://spocity.egeyesilyurt.ca) — or [walk the demo city](https://spocity.egeyesilyurt.ca/demo), no login needed.
-`Next.js` `TypeScript` `React Three Fiber` `Django REST` `Celery` `Postgres`
+### 🖥️ [OverTerm: Agent-Aware Floating Terminal for macOS](https://github.com/egeyesss/overterm)
+Native Rust + Tauri v2 terminal that detects whether an AI coding agent is running,
+finished, or waiting: it shrinks to a status bar while the agent works and expands
+when it needs you. Reads agent state from a vt100 screen model of the pseudoterminal
+instead of the raw byte stream, so it works with any CLI tool, and picks up exact
+turn events out of Claude Code hooks as OSC markers. One-command install behind a
+tag-triggered GitHub Actions release pipeline with a Homebrew cask. 177 tests, MIT
+licensed, with outside users filing issues.
+`Rust` `Tauri v2` `TypeScript` `xterm.js` `vt100`
 
 ### ⚽ [BundesPredict: Bundesliga Match Predictor](https://github.com/egeyesss/BundesPredict)
 A Bundesliga outcome predictor with two deliberately separate layers: a hand-written
@@ -74,18 +77,20 @@ ECE ≈ 0.01).
 Live at [bundespredict.egeyesilyurt.ca](https://bundespredict.egeyesilyurt.ca).
 `Next.js` `TypeScript` `FastAPI` `Python` `Anthropic API` `Postgres`
 
+### 🃏 [Deximon: Pokémon TCG Collector Platform](https://github.com/neelmu12-code/Deximon)
+Social platform for Pokémon TCG collectors: a digital binder, a card-recognition
+scanner (AWS Rekognition OCR + fuzzy match against the TCG API), and a
+listing-scoped marketplace with real-time chat. Largest contributor on a 6-person
+team (58 of 109 commits); reviewed 12 teammate PRs with written scores and
+follow-up fix PRs.
+Live at [deximon.ca](https://www.deximon.ca).
+`Next.js` `TypeScript` `FastAPI` `Python` `PostgreSQL` `Docker Compose` `WebSockets`
+
 ### 🏋️ [Fitiva: Workout Training Planner](https://github.com/egeyesss/group2-fitiva)
 Leading a 6-person team building a personalized workout planning platform for fitness
 enthusiasts and trainers. Features authentication, fitness profiles, workout scheduling,
 an exercise library, and smart recommendations. 40+ unit tests and counting.
 `Next.js` `TypeScript` `Django REST Framework` `MySQL` `Docker` `Jira`
-
-### 🔨 [Online Auction Platform](https://github.com/egeyesss/eecs4413_auction)
-Full-stack e-commerce web app with Dutch and Forward auction mechanics, real-time
-bidding, automated buyer-seller email notifications, and Google Maps API address
-autocomplete. Deployed on a 3-node Kubernetes cluster with multi-region failover,
-CI/CD pipeline, and automated MySQL backups.
-`Next.js` `TypeScript` `Django REST Framework` `MySQL` `Docker` `Kubernetes`
 
 ---
 
