@@ -1,8 +1,10 @@
 # Ege Yesilyurt
 
-**Software Engineering @ York University · Full-stack (Django · Next.js · Kubernetes) · graduating May 2027**
+**Software Engineering @ York University · Full-stack & AI/ML
 
-I build web apps end to end and systems tooling in Rust; a CP-SAT puzzle engine, an agent-aware terminal for macOS with real outside users, and a calibrated football-forecasting model with a bounded, auditable LLM layer.
+I build web apps E2E and recently a systems tooling in Rust, oTerm. 
+
+I enjoy games (minecraft, tft, geoguessr), sports (soccer, badminton, bouldering), shows (breaking bad, the walking dead, IWGP), and anime (one piece, vinland saga, steins;gate)
 
 ---
 
