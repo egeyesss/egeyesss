@@ -1,6 +1,6 @@
 # Ege Yesilyurt
 
-**Software Engineering @ York University · Full-stack & AI/ML
+**Software Engineering @ York University · Full-stack & AI/ML**
 
 I build web apps E2E and recently a systems tooling in Rust, oTerm. 
 
