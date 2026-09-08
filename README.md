@@ -1,6 +1,6 @@
 # Ege Yesilyurt
 
-**Software Engineering @ York University · Full-stack & AI/ML**
+**Software Engineering @ York University · Full-Stack & AI/ML**
 
 I build web apps E2E and recently a systems tooling in Rust, oTerm. 
 
@@ -19,7 +19,6 @@ I enjoy games (minecraft, tft, geoguessr), sports (soccer, badminton, bouldering
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![HTML/CSS](https://img.shields.io/badge/HTML%2FCSS-E34F26?style=flat&logo=html5&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat&logo=mathworks&logoColor=white)
 
 **Frameworks & Libraries**
 
