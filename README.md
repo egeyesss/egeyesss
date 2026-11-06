@@ -2,7 +2,7 @@
 
 **Software Engineering @ York University · Full-Stack & AI/ML**
 
-I build web apps E2E and recently a systems tooling in Rust, oTerm. 
+I build full-stack web apps end to end. My biggest one is BundesPredict, a Bundesliga prediction site with paying subscribers, and I also built a systems tool in Rust, OverTerm.
 
 I enjoy games (minecraft, tft, geoguessr), sports (soccer, badminton, bouldering), shows (breaking bad, the walking dead, IWGP), and anime (one piece, vinland saga, steins;gate)
 
@@ -38,6 +38,22 @@ I enjoy games (minecraft, tft, geoguessr), sports (soccer, badminton, bouldering
 
 ## Featured Projects
 
+### ⚽ [BundesPredict: Bundesliga Prediction Subscription Site](https://github.com/egeyesss/BundesPredict)
+A live subscription website with paying subscribers, built on a Bundesliga prediction
+model I wrote. A hand-written Dixon–Coles model, fit on every result since 2020/21 and
+refit daily, gives win, draw and loss odds plus expected goals for every fixture.
+A chat agent running on Claude takes the news you tell it (an injured striker, a storm
+on Saturday), checks it against squad data and the weather forecast, and reruns the
+model with a small expected-goals change that the server caps at ±0.6, so the model
+owns every number. Around it is the product: Google and email-code sign-in, free and
+$5/month Pro plans on Stripe (Pro only switches on from a signed webhook), daily chat
+quotas, a public track record scored after every match, a weekly matchday email, a
+guided demo, and an admin dashboard for MRR, churn and AI cost per subscriber.
+Backtested walk-forward over 1,827 matches, it lands within 4% of the closing
+bookmaker odds.
+Live at [bundespredict.egeyesilyurt.ca](https://bundespredict.egeyesilyurt.ca).
+`Next.js` `TypeScript` `Django REST Framework` `Python` `PostgreSQL` `Stripe` `Anthropic API` `GitHub Actions`
+
 ### 🦓 [Zebra: Daily Logic-Grid Puzzle](https://github.com/egeyesss/zebra)
 A daily competitive puzzle web app built around the classic Einstein riddle. One fresh
 4×4 grid every day (plus a 5×5 bonus on Fridays), the same puzzle for every player.
@@ -62,27 +78,15 @@ finished, or waiting: it shrinks to a status bar while the agent works and expan
 when it needs you. Reads agent state from a vt100 screen model of the pseudoterminal
 instead of the raw byte stream, so it works with any CLI tool, and picks up exact
 turn events out of Claude Code hooks as OSC markers. One-command install behind a
-tag-triggered GitHub Actions release pipeline with a Homebrew cask. 177 tests, MIT
-licensed, with outside users filing issues.
+tag-triggered GitHub Actions release pipeline with a Homebrew cask. MIT licensed,
+with merged pull requests from 2 other contributors.
 `Rust` `Tauri v2` `TypeScript` `xterm.js` `vt100`
-
-### ⚽ [BundesPredict: Bundesliga Match Predictor](https://github.com/egeyesss/BundesPredict)
-A Bundesliga outcome predictor with two deliberately separate layers: a hand-written
-Dixon–Coles / Poisson model (weighted MLE, time decay, temperature-scaled calibration)
-produces the probabilities, and an LLM agent turns plain-English match context — "their
-striker is out and it's storming" — into small, bounded, server-clamped expected-goals
-adjustments, re-runs the model, and explains what moved and why. One score matrix drives
-every market, so 1X2, over/under, both-teams-to-score, and correct scores can never
-disagree. Backtested walk-forward over five seasons (~1,800 out-of-sample predictions,
-ECE ≈ 0.01).
-Live at [bundespredict.egeyesilyurt.ca](https://bundespredict.egeyesilyurt.ca).
-`Next.js` `TypeScript` `FastAPI` `Python` `Anthropic API` `Postgres`
 
 ### 🃏 [Deximon: Pokémon TCG Collector Platform](https://github.com/neelmu12-code/Deximon)
 Social platform for Pokémon TCG collectors: a digital binder, a card-recognition
 scanner (AWS Rekognition OCR + fuzzy match against the TCG API), and a
 listing-scoped marketplace with real-time chat. Largest contributor on a 6-person
-team (58 of 109 commits); reviewed 12 teammate PRs with written scores and
+team (66 of 140 commits); reviewed 8 teammate PRs with written scores and
 follow-up fix PRs.
 Live at [deximon.ca](https://www.deximon.ca).
 `Next.js` `TypeScript` `FastAPI` `Python` `PostgreSQL` `Docker Compose` `WebSockets`
